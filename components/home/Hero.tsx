@@ -30,8 +30,8 @@ export default function Hero(props: HomeHeroData) {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: `url('${
-            `https://kahragen.aldrtech.com${props.background_image_url}` ||
-            `https://kahragen.aldrtech.com${props.background_image_path}` ||
+            `https://dashboard.kahragen.aldrtech.com${props.background_image_url}` ||
+            `https://dashboard.kahragen.aldrtech.com${props.background_image_path}` ||
             "/default-hero-bg.jpg"
           }')`,
         }} // Use prop, add fallback

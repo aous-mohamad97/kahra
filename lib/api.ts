@@ -1,6 +1,6 @@
 // frontend/lib/api.ts
 const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || "https://kahragen.aldrtech.com/api/v1";
+  process.env.NEXT_PUBLIC_API_URL || "https://dashboard.kahragen.aldrtech.com/api/v1";
 
 export async function fetchAPI<T>(
   endpoint: string,
