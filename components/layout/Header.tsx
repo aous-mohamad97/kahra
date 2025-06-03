@@ -108,7 +108,6 @@ export default function Header() {
           const settingsData = settingsResponse.data;
           if (settingsData.logo_header_url) {
             settingsData.logo_header_url = getAbsoluteImageUrl(settingsData.logo_header_path);
-            console.log(getAbsoluteImageUrl(settingsData.logo_header_path));
           }
           setSiteSettings(settingsResponse.data);
         }

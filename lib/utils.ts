@@ -13,7 +13,7 @@ export function cn(...inputs: ClassValue[]) {
  * @returns The absolute image URL or a fallback/empty string.
  */
 export function getAbsoluteImageUrl(imagePath?: string | null): string {
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL;
+  const appUrl = "https://dashboard.kahragen.aldrtech.com";
 
   if (!imagePath) {
     // You can return a placeholder image URL or an empty string
